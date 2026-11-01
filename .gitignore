@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+# Build output (chunks, Lambda zip, pip install folders)
+build/
+package/
+*.zip
+# Generated embeddings (re-create with app/ingest/embed.py)
+corpus.jsonl
+# Secrets - never commit these
+.env
+*.csv
+*.crt
+*.pem
+# Terraform (Phase 8)
+.terraform/
+*.tfstate
+*.tfstate.backup

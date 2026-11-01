@@ -1,0 +1,2 @@
+# Packages for running the ingest scripts and local tests on your laptop.
+boto3>=1.35
