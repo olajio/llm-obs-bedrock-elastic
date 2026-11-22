@@ -17,3 +17,4 @@ corpus.jsonl
 .terraform/
 *.tfstate
 *.tfstate.backup
+.DS_Store

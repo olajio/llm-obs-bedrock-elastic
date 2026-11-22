@@ -1,3 +1,8 @@
 # Runtime dependencies bundled into the Lambda zip by scripts/build_lambda.sh.
 # boto3 is already part of the AWS Lambda Python runtime, so Phase 1 needs nothing here.
 # Phase 2 adds elasticsearch; Phase 3 adds the OpenTelemetry packages.
+elasticsearch>=9,<10
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-exporter-otlp-proto-http
+python-dateutil<3
